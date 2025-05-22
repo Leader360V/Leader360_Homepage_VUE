@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as t,g as e,H as o,F as c,R as _,M as n,D as r,O as p,h as d}from"./index-2830dceb.js";const u={class:"home"},i={__name:"Contact",setup(l){return(h,m)=>(s(),t("div",u,[e(o),e(c),e(_),e(n),e(r),e(p),e(d)]))}},f=a(i,[["__scopeId","data-v-2a998419"]]);export{f as default};
