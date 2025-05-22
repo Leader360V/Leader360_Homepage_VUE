@@ -1,12 +1,16 @@
 <template>
   <div id="app" :class="{ 'no-padding': route.path === '/try' }">
-    <nav v-if="route.path !== '/try'" class="main-nav">
+    <!-- <nav v-if="route.path !== '/try'" class="main-nav"> -->
+    <nav class="main-nav">
       <div class="container nav-container">
-        <router-link to="/Leader360_Homepage_VUE" class="nav-logo">Leader360V</router-link>
+        <router-link to="/Leader360_Homepage_VUE" class="nav-logo">
+          <img src="/assets/logo.png" alt="Logo" class="logo-img">
+          Leader360V
+        </router-link>
         <div class="nav-links">
           <router-link to="/Leader360_Homepage_VUE">Home</router-link>
           <router-link to="/try">Try Demo</router-link>
-          <router-link to="/about">About</router-link>
+          <!-- <router-link to="/about">About</router-link> -->
           <!-- <router-link to="/contact">Contact</router-link> -->
         </div>
       </div>
@@ -87,5 +91,11 @@ html, body {
 
 .nav-links a.router-link-active {
   color: #42b883;
+}
+
+.logo-img {
+  height: 30px; /* 调整高度 */
+  margin-right: 2px; /* 图片和文字间距 */
+  vertical-align: middle;
 }
 </style>

@@ -1,28 +1,28 @@
 <template>
   <section id="resources" class="resources">
     <div class="container">
-      <h2 class="resources-title">Explore additional resources</h2>
+      <h2 class="resources-title">Explore Additional Resources</h2>
       <div class="resources-grid">
         <a href="#" class="resources-card">
-          <span>Read the AI at Meta blog</span>
+          <span>Back to Top</span>
           <span class="resources-arrow">&#8599;</span>
         </a>
         <a href="#" class="resources-card">
-          <span>Read the research paper</span>
+          <span>Read the Research Paper</span>
           <span class="resources-arrow">&#8599;</span>
         </a>
-        <a href="#" class="resources-card">
-          <span>Download the dataset</span>
+        <a href="https://huggingface.co/datasets/Leader360V/Leader360V" class="resources-card">
+          <span>Download the Dataset</span>
           <span class="resources-arrow">&#8599;</span>
         </a>
-        <a href="#" class="resources-card">
-          <span>Explore the dataset</span>
+        <a href="https://leader360v.github.io/Leader360V_HomePage" class="resources-card">
+          <span>Explore More</span>
           <span class="resources-arrow">&#8599;</span>
         </a>
-        <a href="#" class="resources-card">
+        <!-- <a href="#" class="resources-card">
           <span>Download the model</span>
           <span class="resources-arrow">&#8599;</span>
-        </a>
+        </a> -->
       </div>
     </div>
   </section>

@@ -5,26 +5,26 @@
         <video class="dataset-video" src="/assets/feature4.mp4" autoplay loop muted playsinline controls></video>
       </div>
       <div class="dataset-right">
-        <div class="dataset-label">The Segment Anything Video Dataset</div>
-        <h2 class="dataset-title">A large and diverse video segmentation dataset</h2>
-        <p class="dataset-desc">
-          SAM 2 was trained on a large and diverse set of videos and masklets (object masks over time), created by applying SAM 2 interactively in a model in the loop data-engine. The training data includes the SA-V dataset, which we are open sourcing.
-        </p>
-        <p class="dataset-desc">
-          Please email <a href="mailto:support@segment-anything.com" class="dataset-mail">support@segment-anything.com</a> with any issues or questions regarding the SA-V dataset.
-        </p>
-        <a class="dataset-link" href="#" target="_blank">
-          <span class="arrow">&#8594;</span>
-          <span>Explore the dataset</span>
-        </a>
+        <!-- <div class="dataset-label">The Segment Anything Video Dataset</div> -->
+        <h2 class="dataset-title">Flexibility of Our Annotation Pipeline</h2>
+        <!-- <p class="dataset-desc">
+          Introduction.
+        </p> -->
         <div class="dataset-highlights-box">
           <div class="dataset-highlights-title"><b>Highlights</b></div>
           <ul class="dataset-highlights-list">
-            <li>~600K+ masklets collected on ~51K videos</li>
-            <li>Geographically diverse, real world scenarios collected across 47 countries</li>
+            <li>1</li>
+            <li>2</li>
             <li>Annotations include whole objects, parts, and challenging occlusions</li>
           </ul>
         </div>
+        <!-- <p class="dataset-desc">
+          Please email <a href="mailto:support@segment-anything.com" class="dataset-mail">support@segment-anything.com</a> with any issues or questions regarding the SA-V dataset.
+        </p> -->
+        <!-- <a class="dataset-link" href="#" target="_blank">
+          <span class="arrow">&#8594;</span>
+          <span>Explore the dataset</span>
+        </a> -->
       </div>
     </div>
   </section>

@@ -8,12 +8,12 @@
             <video src="/assets/feature3.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Seamless Translation</h3>
+            <h3 class="about-card-sm-title">Gym</h3>
             <div class="about-card-sm-desc">
-              Hear what you sound like in another language.
+              Mobile & Vehicle-carry
             </div>
-            <div class="about-card-sm-tag">Language AI</div>
-            <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a>
+            <div class="about-card-sm-tag">Indoor</div>
+            <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
           </div>
         </div>
       </div>
@@ -23,12 +23,12 @@
             <video src="/assets/feature4.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Animated Drawings</h3>
+            <h3 class="about-card-sm-title">Street</h3>
             <div class="about-card-sm-desc">
-              Bring hand-drawn sketches to life with animations.
+              Mobile & Human-carry
             </div>
-            <div class="about-card-sm-tag vision">Vision AI</div>
-            <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a>
+            <div class="about-card-sm-tag vision">Outdoor</div>
+            <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
           </div>
         </div>
       </div>
@@ -38,12 +38,59 @@
             <video src="/assets/feature1.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Audiobox</h3>
+            <h3 class="about-card-sm-title">Sea</h3>
             <div class="about-card-sm-desc">
-              Create an audio story with AI-generated voices and sounds.
+              Still
             </div>
-            <div class="about-card-sm-tag">Language AI</div>
-            <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a>
+            <div class="about-card-sm-tag">Indoor</div>
+            <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature-grid">
+      <div class="about-card-sm-gradient">
+        <div class="about-card-sm">
+          <div class="about-card-sm-media">
+            <video src="/assets/feature3.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+          </div>
+          <div class="about-card-sm-content">
+            <h3 class="about-card-sm-title">Gym</h3>
+            <div class="about-card-sm-desc">
+              Mobile & Vehicle-carry
+            </div>
+            <div class="about-card-sm-tag">Indoor</div>
+            <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
+          </div>
+        </div>
+      </div>
+      <div class="about-card-sm-gradient">
+        <div class="about-card-sm">
+          <div class="about-card-sm-media">
+            <video src="/assets/feature4.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+          </div>
+          <div class="about-card-sm-content">
+            <h3 class="about-card-sm-title">Street</h3>
+            <div class="about-card-sm-desc">
+              Mobile & Human-carry
+            </div>
+            <div class="about-card-sm-tag vision">Outdoor</div>
+            <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
+          </div>
+        </div>
+      </div>
+      <div class="about-card-sm-gradient">
+        <div class="about-card-sm">
+          <div class="about-card-sm-media">
+            <video src="/assets/feature1.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+          </div>
+          <div class="about-card-sm-content">
+            <h3 class="about-card-sm-title">Sea</h3>
+            <div class="about-card-sm-desc">
+              Still
+            </div>
+            <div class="about-card-sm-tag">Indoor</div>
+            <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
           </div>
         </div>
       </div>
@@ -61,23 +108,23 @@
 <script setup>
 import FeatureCard from './FeatureCard.vue'
 
-const features = [
-  {
-    title: 'Select objects and make adjustments across video frames',
-    desc: 'Using SAM 2, you can select one or multiple objects in a video frame. Use additional prompts to refine the model predictions.',
-    video: '/assets/feature1.mp4'
-  },
-  {
-    title: 'Robust segmentation, even in unfamiliar videos',
-    desc: 'SAM 2 is capable of strong zero-shot performance for objects, images and videos not previously seen during model training, enabling use in a wide range of real-world applications.',
-    video: '/assets/feature2.mp4'
-  },
-  {
-    title: 'Real-time interactivity and results',
-    desc: 'SAM 2 is designed for efficient video processing with streaming inference to enable real-time, interactive applications.',
-    video: '/assets/feature3.mp4'
-  }
-]
+// const features = [
+//   {
+//     title: 'Select objects and make adjustments across video frames',
+//     desc: 'Using SAM 2, you can select one or multiple objects in a video frame. Use additional prompts to refine the model predictions.',
+//     video: '/assets/feature1.mp4'
+//   },
+//   {
+//     title: 'Robust segmentation, even in unfamiliar videos',
+//     desc: 'SAM 2 is capable of strong zero-shot performance for objects, images and videos not previously seen during model training, enabling use in a wide range of real-world applications.',
+//     video: '/assets/feature2.mp4'
+//   },
+//   {
+//     title: 'Real-time interactivity and results',
+//     desc: 'SAM 2 is designed for efficient video processing with streaming inference to enable real-time, interactive applications.',
+//     video: '/assets/feature3.mp4'
+//   }
+// ]
 </script>
 
 <style scoped>

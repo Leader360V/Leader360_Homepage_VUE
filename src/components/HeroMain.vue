@@ -2,14 +2,14 @@
   <section class="hero-main">
     <div class="hero-content">
       <div class="hero-main-label">Anonymous submission to NeurIPS2025</div>
-      <h1 class="hero-main-title">Leader360V: <br> A Large-scale, Real-world <br>360 Video Dataset for Multi-task Learning <br>in Diverse Environments</h1>
+      <h1 class="hero-main-title"> A Large-scale, Real-world 360 Video Dataset for Multi-task Learning in Diverse Environments</h1>
       <p class="hero-main-desc">
-        SAM 2 is a segmentation model that enables fast, precise selection of any object in any video or image.
+        Leader360V is ...
       </p>
       <div class="hero-main-btns">
         <!-- <router-link to="/try" class="hero-main-btn primary">Try the demo</router-link> -->
-        <a href="https://leader360v.github.io/Leader360V_HomePage/" class="hero-main-btn primary">Try the demo</a>
-        <a href="https://leader360v.github.io/Leader360V_HomePage/" class="hero-main-btn primary">Download the model</a>
+        <a href="https://huggingface.co/datasets/Leader360V/Leader360V" class="hero-main-btn primary">Try the Dataset</a>
+        <a href="https://leader360v.github.io/Leader360V_HomePage/Dataset.html" class="hero-main-btn primary">Know More</a>
       </div>
     </div>
     <div class="hero-video">
@@ -41,10 +41,10 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 
 const videos = [
-  '/assets/feature1.mp4',
-  '/assets/feature2.mp4',
-  '/assets/feature3.mp4',
-  '/assets/feature4.mp4'
+  'Leader360_Homepage_VUE/assets/feature1.mp4',
+  'Leader360_Homepage_VUE/assets/feature2.mp4',
+  'Leader360_Homepage_VUE/assets/feature3.mp4',
+  'Leader360_Homepage_VUE/assets/feature4.mp4'
 ]
 const currentIndex = ref(0)
 const currentVideo = computed(() => videos[currentIndex.value])
@@ -96,7 +96,7 @@ onBeforeUnmount(() => {
 }
 .hero-main-desc {
   font-size: 1.2em;
-  color: #fff;
+  color: #222;
   margin-bottom: 24px;
 }
 .hero-main-btns {

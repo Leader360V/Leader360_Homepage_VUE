@@ -2,16 +2,16 @@
   <section id="research" class="research">
     <div class="container research-flex">
       <div class="research-left">
-        <h2>State-of-the-art<br>performance for object segmentation</h2>
+        <h2>Why Collect Additional Videos by Ourselves?</h2>
         <p class="research-desc">
-          SAM 2 outperforms the best models in the field for object segmentation in videos and images.
+          Imbalance in existing datasets
         </p>
         <div class="research-highlights-box">
           <div class="research-highlights-title"><b>Highlights</b></div>
           <ul class="research-highlights-list">
-            <li>SAM 2 improves on SAM for segmentation in images</li>
-            <li>SAM 2 outperforms existing video object segmentation models, especially for tracking parts</li>
-            <li>SAM 2 requires less interaction time than existing interactive video segmentation methods</li>
+            <li>More Scenario Diversity: overall sceanrios reach 1K.</li>
+            <li>Multiple Shooting Way: </li>
+            <li>More Balanced Distribution: </li>
           </ul>
         </div>
       </div>

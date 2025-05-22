@@ -4,19 +4,45 @@
       <div class="try-header-row">
         <div>
           <div class="try-title">
-            <span class="gradient">Segment Anything 2 Demo</span>
+            <span class="gradient">Automatic Annotate Any 360 Video Pipeline</span>
           </div>
-          <div class="try-subtitle">
+          <!-- <div class="try-subtitle">
             Create video cutouts and effects<br>
             with a few clicks
-          </div>
+          </div> -->
         </div>
-        <div class="try-btn-gradient">
-          <a href="https://www.github-zh.com/" target="_blank" class="try-btn">Try it now</a>
+        <div class="button-group">
+          <div class="try-btn-gradient">
+            <a href="" target="_blank" class="try-btn">Submit</a>
+          </div>
+          <div class="try-btn-gradient">
+            <a href="" target="_blank" class="try-btn">Process</a>
+          </div>
         </div>
       </div>
     </header>
+    <div class="feature-grid">
+      <div>
+          <h3 class="about-card-sm-title">Raw Input</h3>
+      </div>
+      <div>
+          <h3 class="about-card-sm-title">Annotation</h3>
+      </div>
+    </div>
     <main class="try-main">
+      <div class="try-video-wrapper">
+        <video
+          class="try-video"
+          src="/assets/feature1.mp4"
+          autoplay
+          loop
+          muted
+          playsinline
+          controls
+        ></video>
+      </div>
+      
+      
       <div class="try-video-wrapper">
         <video
           class="try-video"
@@ -112,7 +138,7 @@
 }
 .try-video-wrapper {
   width: 90vw;
-  max-width: 1100px;
+  max-width: 500px;
   margin: 0 auto;
   border-radius: 32px;
   overflow: hidden;
@@ -146,5 +172,20 @@
   .try-video-wrapper {
     border-radius: 16px;
   }
+}
+.about-card-sm-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+.feature-grid {
+  display: flex;
+  gap: 100px;
+  margin-top: 32px;
+}
+.button-group {
+  display: flex;       /* 启用弹性布局 */
+  gap: 8px;            /* 可选：自定义间距（按需调整） */
 }
 </style> 
