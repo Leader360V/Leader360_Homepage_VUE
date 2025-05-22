@@ -1,14 +1,15 @@
 <template>
   <section class="hero-main">
     <div class="hero-content">
-      <div class="hero-main-label">A Meta FAIR release</div>
-      <h1 class="hero-main-title">Introducing Meta<br>Segment Anything<br>Model 2 (SAM 2)</h1>
+      <div class="hero-main-label">Anonymous submission to NeurIPS2025</div>
+      <h1 class="hero-main-title">Leader360V: <br> A Large-scale, Real-world <br>360 Video Dataset for Multi-task Learning <br>in Diverse Environments</h1>
       <p class="hero-main-desc">
         SAM 2 is a segmentation model that enables fast, precise selection of any object in any video or image.
       </p>
       <div class="hero-main-btns">
-        <router-link to="/try" class="hero-main-btn primary">Try the demo</router-link>
-        <a href="#" class="hero-main-btn primary">Download the model</a>
+        <!-- <router-link to="/try" class="hero-main-btn primary">Try the demo</router-link> -->
+        <a href="https://leader360v.github.io/Leader360V_HomePage/" class="hero-main-btn primary">Try the demo</a>
+        <a href="https://leader360v.github.io/Leader360V_HomePage/" class="hero-main-btn primary">Download the model</a>
       </div>
     </div>
     <div class="hero-video">

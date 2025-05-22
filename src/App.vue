@@ -2,12 +2,12 @@
   <div id="app" :class="{ 'no-padding': route.path === '/try' }">
     <nav v-if="route.path !== '/try'" class="main-nav">
       <div class="container nav-container">
-        <router-link to="/" class="nav-logo">SAM 2</router-link>
+        <router-link to="/Leader360_Homepage_VUE" class="nav-logo">Leader360V</router-link>
         <div class="nav-links">
-          <router-link to="/">Home</router-link>
+          <router-link to="/Leader360_Homepage_VUE">Home</router-link>
           <router-link to="/try">Try Demo</router-link>
           <router-link to="/about">About</router-link>
-          <router-link to="/contact">Contact</router-link>
+          <!-- <router-link to="/contact">Contact</router-link> -->
         </div>
       </div>
     </nav>

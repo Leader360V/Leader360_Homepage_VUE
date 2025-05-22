@@ -3,7 +3,7 @@ import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/Leader360_Homepage_VUE',
     name: 'Home',
     component: Home
   },
