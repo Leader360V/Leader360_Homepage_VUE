@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as t,h as e,H as o,F as c,R as _,M as n,D as r,O as p,i as d}from"./index-d1b2fffa.js";const i={class:"home"},u={__name:"Contact",setup(l){return(h,m)=>(s(),t("div",i,[e(o),e(c),e(_),e(n),e(r),e(p),e(d)]))}},f=a(u,[["__scopeId","data-v-2a998419"]]);export{f as default};
