@@ -39,32 +39,32 @@ import { ref, computed } from 'vue';
 
 const carouselItems = ref([
   {
-    src: "Leader360_Homepage_VUE/assets/feature1.mp4",
+    src: "/assets/feature1.mp4",
     altText: "Home",
     description: "Interior home snapshot"
   },
   {
-    src: "Leader360_Homepage_VUE/assets/feature2.mp4",
+    src: "/assets/feature2.mp4",
     altText: "Hotel",
     description: "Hotel scenario"
   },
   {
-    src: "Leader360_Homepage_VUE/assets/feature3.mp4",
+    src: "/assets/feature3.mp4",
     altText: "Park",
     description: "Park view"
   },
   {
-    src: "Leader360_Homepage_VUE/assets/feature4.mp4",
+    src: "/assets/feature4.mp4",
     altText: "Beach",
     description: "Beach scene"
   },
   {
-    src: "Leader360_Homepage_VUE/assets/feature1.mp4",
+    src: "/assets/feature1.mp4",
     altText: "City",
     description: "City skyline"
   },
   {
-    src: "Leader360_Homepage_VUE/assets/feature2.mp4",
+    src: "/assets/feature2.mp4",
     altText: "Forest",
     description: "Forest trail"
   }
