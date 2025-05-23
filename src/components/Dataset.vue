@@ -6,10 +6,11 @@
       </div>
       <div class="dataset-right">
         <!-- <div class="dataset-label">The Segment Anything Video Dataset</div> -->
-        <h2 class="dataset-title">Flexibility of Our Annotation Pipeline</h2>
-        <!-- <p class="dataset-desc">
+        <h2 class="dataset-title">Automatic Annotate Any 360 Video Pipeline</h2>
+        
+        <p class="dataset-desc">
           Introduction.
-        </p> -->
+        </p>
         <div class="dataset-highlights-box">
           <div class="dataset-highlights-title"><b>Highlights</b></div>
           <ul class="dataset-highlights-list">

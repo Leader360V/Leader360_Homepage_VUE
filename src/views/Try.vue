@@ -6,10 +6,6 @@
           <div class="try-title">
             <span class="gradient">Automatic Annotate Any 360 Video Pipeline</span>
           </div>
-          <!-- <div class="try-subtitle">
-            Create video cutouts and effects<br>
-            with a few clicks
-          </div> -->
         </div>
         <div class="button-group">
           <div class="try-btn-gradient">
@@ -22,37 +18,37 @@
       </div>
     </header>
     <div class="feature-grid">
-      <div>
-          <h3 class="about-card-sm-title">Raw Input</h3>
+      <div class="feature-label">
+        <h3 class="about-card-sm-title">Raw Input</h3>
       </div>
-      <div>
-          <h3 class="about-card-sm-title">Annotation</h3>
+      <div class="feature-label">
+        <h3 class="about-card-sm-title">Annotation</h3>
       </div>
     </div>
     <main class="try-main">
-      <div class="try-video-wrapper">
-        <video
-          class="try-video"
-          src="/assets/feature1.mp4"
-          autoplay
-          loop
-          muted
-          playsinline
-          controls
-        ></video>
-      </div>
-      
-      
-      <div class="try-video-wrapper">
-        <video
-          class="try-video"
-          src="/assets/feature1.mp4"
-          autoplay
-          loop
-          muted
-          playsinline
-          controls
-        ></video>
+      <div class="video-container">
+        <div class="try-video-wrapper">
+          <video
+            class="try-video"
+            src="/assets/feature1.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            controls
+          ></video>
+        </div>
+        <div class="try-video-wrapper">
+          <video
+            class="try-video"
+            src="/assets/feature1.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            controls
+          ></video>
+        </div>
       </div>
     </main>
   </div>
@@ -96,13 +92,6 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.try-subtitle {
-  font-size: 2rem;
-  font-weight: 400;
-  color: #111;
-  margin-bottom: 0;
-  line-height: 1.1;
-}
 .try-btn-gradient {
   display: inline-block;
   padding: 2.5px;
@@ -136,11 +125,21 @@
   justify-content: center;
   align-items: flex-start;
 }
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 32px auto;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+}
 .try-video-wrapper {
-  width: 90vw;
-  max-width: 500px;
-  margin: 0 auto;
-  border-radius: 32px;
+  width: 45%;
+  border-radius: 16px;
   overflow: hidden;
   background: #000;
   box-shadow: 0 4px 32px rgba(0,0,0,0.18);
@@ -150,6 +149,28 @@
   height: auto;
   display: block;
   background: #000;
+}
+.feature-grid {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.feature-label {
+  width: 50%;
+  text-align: center;
+}
+.about-card-sm-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+.button-group {
+  display: flex;
+  gap: 8px;
 }
 @media (max-width: 900px) {
   .try-header {
@@ -163,29 +184,12 @@
   .try-title {
     font-size: 2rem;
   }
-  .try-subtitle {
-    font-size: 1.2rem;
-  }
-  .try-btn {
-    margin-top: 18px;
+  .video-container {
+    flex-direction: column;
   }
   .try-video-wrapper {
-    border-radius: 16px;
+    width: 100%;
+    margin-bottom: 16px;
   }
 }
-.about-card-sm-title {
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #111;
-}
-.feature-grid {
-  display: flex;
-  gap: 100px;
-  margin-top: 32px;
-}
-.button-group {
-  display: flex;       /* 启用弹性布局 */
-  gap: 8px;            /* 可选：自定义间距（按需调整） */
-}
-</style> 
+</style>

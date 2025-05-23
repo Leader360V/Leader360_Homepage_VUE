@@ -2,15 +2,15 @@
   <section id="open-innovation" class="open-innovation-section open-innovation-bg">
     <div class="container open-innovation-flex">
       <div class="open-innovation-left">
-        <div class="open-innovation-label">Access our research</div>
-        <h2 class="open-innovation-title">Open innovation</h2>
+        <!-- <div class="open-innovation-label">Access our research</div> -->
+        <h2 class="open-innovation-title">Flexibility of Our Annotation Pipeline</h2>
         <p class="open-innovation-desc">
-          To enable the research community to build upon this work, we're publicly releasing a pretrained Segment Anything 2 model, along with the SA-V dataset, a demo, and code.
+          Introduction.
         </p>
-        <a class="open-innovation-link" href="#" target="_blank">
+        <!-- <a class="open-innovation-link" href="#" target="_blank">
           <span class="arrow">&#8599;</span>
           <span>Download the model</span>
-        </a>
+        </a> -->
         <div class="open-innovation-highlights-box">
           <div class="open-innovation-highlights-title"><b>Highlights</b></div>
           <ul class="open-innovation-highlights-list">

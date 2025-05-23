@@ -89,7 +89,7 @@ onBeforeUnmount(() => {
   margin-bottom: 8px;
 }
 .hero-main-title {
-  font-size: 2.5em;
+  font-size: 1.8em;
   margin: 0 0 16px 0;
   font-weight: bold;
   line-height: 1.1;
