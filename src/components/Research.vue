@@ -48,10 +48,10 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 
 const videos = [
-  '/Leader360_Homepage_VUE/assets/feature1.mp4',
-  '/Leader360_Homepage_VUE/assets/feature2.mp4',
-  '/Leader360_Homepage_VUE/assets/feature3.mp4',
-  '/Leader360_Homepage_VUE/assets/feature4.mp4'
+  '/Leader360_Homepage_VUE/assets/videos/Gym-Indoor.mp4',
+  '/Leader360_Homepage_VUE/assets/videos/Road-Outdoor.mp4',
+  '/Leader360_Homepage_VUE/assets/videos/Basement-Indoor.mp4',
+  '/Leader360_Homepage_VUE/assets/videos/SubwayStation-Indoor.mp4'
 ]
 const currentIndex = ref(0)
 const currentVideo = computed(() => videos[currentIndex.value])

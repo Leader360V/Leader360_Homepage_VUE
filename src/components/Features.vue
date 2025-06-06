@@ -5,12 +5,12 @@
       <div class="about-card-sm-gradient">
         <div class="about-card-sm">
           <div class="about-card-sm-media">
-            <video src="/assets/feature3.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+            <video src="/assets/videos/Gym-Indoor.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
             <h3 class="about-card-sm-title">Gym</h3>
             <div class="about-card-sm-desc">
-              Mobile & Vehicle-carry
+              Still
             </div>
             <div class="about-card-sm-tag">Indoor</div>
             <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
@@ -20,12 +20,12 @@
       <div class="about-card-sm-gradient">
         <div class="about-card-sm">
           <div class="about-card-sm-media">
-            <video src="/assets/feature4.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+            <video src="/assets/videos/Road-Outdoor.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Street</h3>
+            <h3 class="about-card-sm-title">Road</h3>
             <div class="about-card-sm-desc">
-              Mobile & Human-carry
+              Mobile & Vehicle-carry
             </div>
             <div class="about-card-sm-tag vision">Outdoor</div>
             <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
@@ -35,14 +35,14 @@
       <div class="about-card-sm-gradient">
         <div class="about-card-sm">
           <div class="about-card-sm-media">
-            <video src="/assets/feature1.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+            <video src="/assets/videos/Nature-Outdoor.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Sea</h3>
+            <h3 class="about-card-sm-title">Nature</h3>
             <div class="about-card-sm-desc">
-              Still
+              Mobile & Human-carry
             </div>
-            <div class="about-card-sm-tag">Indoor</div>
+            <div class="about-card-sm-tag">Outdoor</div>
             <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
           </div>
         </div>
@@ -52,12 +52,12 @@
       <div class="about-card-sm-gradient">
         <div class="about-card-sm">
           <div class="about-card-sm-media">
-            <video src="/assets/feature3.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+            <video src="/assets/videos/Basement-Indoor.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Gym</h3>
+            <h3 class="about-card-sm-title">Basement</h3>
             <div class="about-card-sm-desc">
-              Mobile & Vehicle-carry
+              Mobile & Human-carry
             </div>
             <div class="about-card-sm-tag">Indoor</div>
             <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
@@ -67,12 +67,12 @@
       <div class="about-card-sm-gradient">
         <div class="about-card-sm">
           <div class="about-card-sm-media">
-            <video src="/assets/feature4.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+            <video src="/assets/videos/Grassland-Outdoor.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Street</h3>
+            <h3 class="about-card-sm-title">Grassland</h3>
             <div class="about-card-sm-desc">
-              Mobile & Human-carry
+              Still
             </div>
             <div class="about-card-sm-tag vision">Outdoor</div>
             <!-- <a class="about-card-sm-btn" href="#">Try it <span class="about-card-btn-arrow">↗</span></a> -->
@@ -82,10 +82,10 @@
       <div class="about-card-sm-gradient">
         <div class="about-card-sm">
           <div class="about-card-sm-media">
-            <video src="/assets/feature1.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
+            <video src="/assets/videos/SubwayStation-Indoor.mp4" autoplay loop muted playsinline controls class="about-card-sm-video"></video>
           </div>
           <div class="about-card-sm-content">
-            <h3 class="about-card-sm-title">Sea</h3>
+            <h3 class="about-card-sm-title">Subway Station</h3>
             <div class="about-card-sm-desc">
               Still
             </div>
