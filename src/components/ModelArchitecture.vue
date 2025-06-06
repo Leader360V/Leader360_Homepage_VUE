@@ -39,32 +39,32 @@ import { ref, computed } from 'vue';
 
 const carouselItems = ref([
   {
-    src: "/Leader360_Homepage_VUE/assets/feature1.mp4",
+    src: "/Leader360_Homepage_VUE/assets/videos/anno1/raw1.mp4",
     altText: "raw1",
     description: "Raw video"
   },
   {
-    src: "/Leader360_Homepage_VUE/assets/feature2.mp4",
+    src: "/Leader360_Homepage_VUE/assets/videos/anno1/manual1.mp4",
     altText: "Manual1",
     description: "Manual annotation"
   },
   {
-    src: "/Leader360_Homepage_VUE/assets/feature3.mp4",
+    src: "/Leader360_Homepage_VUE/assets/videos/anno1/pipe1.mp4",
     altText: "Auto1",
     description: "Pipeline annotation"
   },
   {
-    src: "/Leader360_Homepage_VUE/assets/feature4.mp4",
+    src: "/Leader360_Homepage_VUE/assets/videos/anno2/raw2.mp4",
     altText: "raw2",
     description: "Raw video"
   },
   {
-    src: "/Leader360_Homepage_VUE/assets/feature1.mp4",
+    src: "/Leader360_Homepage_VUE/assets/videos/anno2/manual2.mp4",
     altText: "Manual2",
     description: "Manual annotation"
   },
   {
-    src: "/Leader360_Homepage_VUE/assets/feature2.mp4",
+    src: "/Leader360_Homepage_VUE/assets/videos/anno2/pipe2.mp4",
     altText: "Auto2",
     description: "Pipeline annotation"
   }
