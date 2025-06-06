@@ -4,7 +4,7 @@
       <div class="hero-main-label">Anonymous submission to NeurIPS2025</div>
       <h1 class="hero-main-title"> A Large-scale, Real-world 360 Video Dataset for Multi-task Learning in Diverse Environments</h1>
       <p class="hero-main-desc">
-        Leader360V is ...
+        Leader360V is the first large-scale (10K+), labeled real-world 360 video datasets for instance segmentation and tracking. Our datasets enjoy high scene diversity, ranging from indoor and urban settings to natural and dynamic outdoor scenes.
       </p>
       <div class="hero-main-btns">
         <!-- <router-link to="/try" class="hero-main-btn primary">Try the demo</router-link> -->
@@ -12,7 +12,10 @@
         <a href="https://leader360v.github.io/Leader360V_HomePage/Dataset.html" class="hero-main-btn primary">Know More</a>
       </div>
     </div>
-    <div class="hero-video">
+    <div class="open-innovation-right">
+      <img class="open-innovation-video" src="/assets/img/Teaser_Figure_1_00.png">
+    </div>
+    <!-- <div class="hero-video">
       <transition name="fade" mode="out-in">
         <video
           v-if="currentVideo"
@@ -33,7 +36,7 @@
           @click="setVideo(idx)"
         ></button>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 
@@ -168,5 +171,17 @@ onBeforeUnmount(() => {
 }
 .hero-bg {
   /* 移除背景色 */
+}
+
+.open-innovation-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.open-innovation-video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
 }
 </style> 

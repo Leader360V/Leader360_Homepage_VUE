@@ -4,7 +4,7 @@
       <!-- <div class="model-arch-label">Model architecture</div> -->
       <h2 class="model-arch-title">Automatic Annotate Any 360 Video Pipeline</h2>
       <p class="model-arch-desc">
-        Introduction
+        The following video shows the different stages of the Leader360 pipeline.
       </p>
       <!-- <p class="model-arch-desc">
         SAM 2's streaming architecture—which processes video frames one at a time—is also a natural generalization of SAM to the video domain. When SAM 2 is applied to images, the memory module is empty and the model behaves like SAM.
@@ -40,33 +40,33 @@ import { ref, computed } from 'vue';
 const carouselItems = ref([
   {
     src: "/Leader360_Homepage_VUE/assets/feature1.mp4",
-    altText: "Home",
-    description: "Interior home snapshot"
+    altText: "raw1",
+    description: "Raw video"
   },
   {
     src: "/Leader360_Homepage_VUE/assets/feature2.mp4",
-    altText: "Hotel",
-    description: "Hotel scenario"
+    altText: "Manual1",
+    description: "Manual annotation"
   },
   {
     src: "/Leader360_Homepage_VUE/assets/feature3.mp4",
-    altText: "Park",
-    description: "Park view"
+    altText: "Auto1",
+    description: "Pipeline annotation"
   },
   {
     src: "/Leader360_Homepage_VUE/assets/feature4.mp4",
-    altText: "Beach",
-    description: "Beach scene"
+    altText: "raw2",
+    description: "Raw video"
   },
   {
     src: "/Leader360_Homepage_VUE/assets/feature1.mp4",
-    altText: "City",
-    description: "City skyline"
+    altText: "Manual2",
+    description: "Manual annotation"
   },
   {
     src: "/Leader360_Homepage_VUE/assets/feature2.mp4",
-    altText: "Forest",
-    description: "Forest trail"
+    altText: "Auto2",
+    description: "Pipeline annotation"
   }
 ]);
 

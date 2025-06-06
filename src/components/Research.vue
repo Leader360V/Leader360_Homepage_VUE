@@ -4,26 +4,77 @@
       <div class="research-left">
         <h2>Why Collect Additional Videos by Ourselves?</h2>
         <p class="research-desc">
-          Imbalance in existing datasets
+          The existing datasets exhibit imbalances in scene diversity. This is evident in three key aspects.  
         </p>
         <div class="research-highlights-box">
           <div class="research-highlights-title"><b>Highlights</b></div>
           <ul class="research-highlights-list">
-            <li>More Scenario Diversity: overall sceanrios reach 1K.</li>
-            <li>Multiple Shooting Way: </li>
-            <li>More Balanced Distribution: </li>
+            <li>There is a significant imbalance in the ratio of indoor to outdoor videos within the dataset, as well as in the distribution of various types of labels.</li>
+            <li>The ratio of dynamically shot videos to stationary ones is unbalanced.</li>
+            <li>Among the dynamically shot videos, the ratio of videos featuring human subjects versus those featuring vehicles (including cars, drones, etc.) is also significantly skewed.</li>
           </ul>
         </div>
       </div>
-      <div class="research-right">
+      <!-- <div class="research-right">
         <video class="research-video" src="/assets/demo.mp4" autoplay loop muted playsinline controls></video>
+      </div> -->
+      <div class="hero-video">
+      <transition name="fade" mode="out-in">
+        <video
+          v-if="currentVideo"
+          :key="currentVideo"
+          :src="currentVideo"
+          autoplay
+          loop
+          muted
+          playsinline
+          class="main-video"
+        ></video>
+      </transition>
+      <div class="video-controls">
+        <button
+          v-for="(video, idx) in videos"
+          :key="video"
+          :class="{ active: idx === currentIndex }"
+          @click="setVideo(idx)"
+        ></button>
       </div>
+    </div>
     </div>
   </section>
 </template>
 
 <script setup>
-// 暂无逻辑
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+
+const videos = [
+  '/Leader360_Homepage_VUE/assets/feature1.mp4',
+  '/Leader360_Homepage_VUE/assets/feature2.mp4',
+  '/Leader360_Homepage_VUE/assets/feature3.mp4',
+  '/Leader360_Homepage_VUE/assets/feature4.mp4'
+]
+const currentIndex = ref(0)
+const currentVideo = computed(() => videos[currentIndex.value])
+
+let timer = null
+const setVideo = idx => {
+  currentIndex.value = idx
+  resetTimer()
+}
+const nextVideo = () => {
+  currentIndex.value = (currentIndex.value + 1) % videos.length
+}
+const resetTimer = () => {
+  clearInterval(timer)
+  timer = setInterval(nextVideo, 4000)
+}
+
+onMounted(() => {
+  timer = setInterval(nextVideo, 4000)
+})
+onBeforeUnmount(() => {
+  clearInterval(timer)
+})
 </script>
 
 <style scoped>
@@ -71,5 +122,38 @@
 .research-highlights-list {
   list-style-type: disc;
   padding-left: 20px;
+}
+
+.hero-video {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.main-video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+  background: #222;
+}
+.video-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  justify-content: center;
+}
+.video-controls button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+  transition: background 0.2s;
+  outline: none;
+  padding: 0;
 }
 </style> 

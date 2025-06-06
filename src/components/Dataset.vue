@@ -2,23 +2,24 @@
   <section id="dataset" class="dataset-section">
     <div class="container dataset-flex">
       <div class="dataset-left">
-        <video class="dataset-video" src="/assets/feature4.mp4" autoplay loop muted playsinline controls></video>
+        <!-- <video class="dataset-video" src="/assets/feature4.mp4" autoplay loop muted playsinline controls></video> -->
+         <img class="dataset-video" src="/assets/img/Framework_00.png">
       </div>
       <div class="dataset-right">
         <!-- <div class="dataset-label">The Segment Anything Video Dataset</div> -->
         <h2 class="dataset-title">Automatic Annotate Any 360 Video Pipeline</h2>
         
         <p class="dataset-desc">
-          Introduction.
+          This pipeline is an automatic labeling pipeline, which subtly coordinates pre-trained 2D segmentors and large language models (LLMs) to facilitate the labeling. The pipeline operates in three novel stages.
         </p>
-        <div class="dataset-highlights-box">
+        <!-- <div class="dataset-highlights-box">
           <div class="dataset-highlights-title"><b>Highlights</b></div>
           <ul class="dataset-highlights-list">
-            <li>1</li>
-            <li>2</li>
-            <li>Annotations include whole objects, parts, and challenging occlusions</li>
+            <li>Initial Annotation Phase: We first extract keyframes and use multiple 2D segmentors (e.g., CropFormer , OneFormer) to generate semantic and instance segmentation proposals. These outputs are unified and aligned via LLM-based semantic matching, then refined through a Semantic- and Distortion-aware Refinement (SDR) Module that leverages SAM2 to produce high-quality panoramic masks.</li>
+            <li>Auto-Refine Annotation Phase: For subsequent keyframes in the video, we iteratively propagate annotations and identify low-quality regions based on mask coverage. Frames failing coverage thresholds are reprocessed using a GPT-guided Motion-Continuity Refinement (MCR) module, which resolves annotation inconsistencies across left-right ERP and recovers missing masks caused by occlusion or distortion.</li>
+            <li>Manual Revise Phase: Finally, human annotators validate and correct the outputs from the previous stages. Multi-annotator review ensures consistency and completeness across frames, producing the final high-quality annotations.</li>
           </ul>
-        </div>
+        </div> -->
         <!-- <p class="dataset-desc">
           Please email <a href="mailto:support@segment-anything.com" class="dataset-mail">support@segment-anything.com</a> with any issues or questions regarding the SA-V dataset.
         </p> -->

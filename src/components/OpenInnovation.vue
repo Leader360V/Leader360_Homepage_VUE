@@ -1,11 +1,12 @@
 <template>
   <section id="open-innovation" class="open-innovation-section open-innovation-bg">
-    <div class="container open-innovation-flex">
+    <!-- <div class="container open-innovation-flex"> -->
+    <div class="container">
       <div class="open-innovation-left">
         <!-- <div class="open-innovation-label">Access our research</div> -->
-        <h2 class="open-innovation-title">Flexibility of Our Annotation Pipeline</h2>
+        <h2 class="open-innovation-title">Flexibility of Our Pipeline</h2>
         <p class="open-innovation-desc">
-          Introduction.
+          Our annotation pipeline allows users to freely customize components, supporting interchangeable choices of 2D segmentors, LLMs, and downstream prompt strategies.
         </p>
         <!-- <a class="open-innovation-link" href="#" target="_blank">
           <span class="arrow">&#8599;</span>
@@ -14,15 +15,15 @@
         <div class="open-innovation-highlights-box">
           <div class="open-innovation-highlights-title"><b>Highlights</b></div>
           <ul class="open-innovation-highlights-list">
-            <li>We are providing transparency into the SAM 2 training data</li>
-            <li>We prioritized geographic diversity in the SA-V dataset for real-world representation</li>
-            <li>We conducted a fairness evaluation of SAM 2</li>
+            <li>Offering configurable support for both entity-level and panoptic-level models for 2D segmentation backbones. </li>
+            <li>Supporting flexible integration of LLMs for semantic label verification, which can be customized via task-specific text prompts. </li>
+            <li>Enabling multi-task annotation with minimal human intervention, including large-scale 2D video datasets and related tasks. </li>
           </ul>
         </div>
       </div>
-      <div class="open-innovation-right">
+      <!-- <div class="open-innovation-right">
         <video class="open-innovation-video" src="/assets/feature3.mp4" autoplay loop muted playsinline controls></video>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -83,6 +84,7 @@
   border-radius: 12px;
   padding: 16px;
   margin-top: 24px;
+  text-align: left;
 }
 .open-innovation-highlights-title {
   font-size: 1.2em;
