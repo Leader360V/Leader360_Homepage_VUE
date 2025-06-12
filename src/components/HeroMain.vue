@@ -84,7 +84,7 @@ onBeforeUnmount(() => {
 }
 .hero-content {
   flex: 1.2;
-  padding-right: 40px;
+  padding-right: 10px;
 }
 .hero-main-label {
   font-size: 1.2em;
@@ -174,13 +174,13 @@ onBeforeUnmount(() => {
 }
 
 .open-innovation-right {
-  flex: 1;
+  flex: 1.3;
   display: flex;
   justify-content: center;
 }
 .open-innovation-video {
   width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   border-radius: 18px;
   box-shadow: 0 4px 32px rgba(0,0,0,0.12);
 }

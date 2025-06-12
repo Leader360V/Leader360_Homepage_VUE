@@ -67,7 +67,22 @@ const carouselItems = ref([
     src: "/Leader360_Homepage_VUE/assets/videos/anno2/pipe2.mp4",
     altText: "Auto2",
     description: "Pipeline annotation"
-  }
+  },
+  {
+    src: "/Leader360_Homepage_VUE/assets/videos/anno3/raw3.mp4",
+    altText: "raw3",
+    description: "Raw video"
+  },
+  {
+    src: "/Leader360_Homepage_VUE/assets/videos/anno3/manual3.mp4",
+    altText: "Manual3",
+    description: "Manual annotation"
+  },
+  {
+    src: "/Leader360_Homepage_VUE/assets/videos/anno3/pipe3.mp4",
+    altText: "Auto3",
+    description: "Pipeline annotation"
+  },
 ]);
 
 const currentIndex = ref(0);
