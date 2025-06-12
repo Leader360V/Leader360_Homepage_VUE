@@ -30,7 +30,7 @@
         <div class="try-video-wrapper">
           <video
             class="try-video"
-            src="/assets/feature1.mp4"
+            src="/assets/videos/anno1/raw1.mp4"
             autoplay
             loop
             muted
@@ -41,7 +41,7 @@
         <div class="try-video-wrapper">
           <video
             class="try-video"
-            src="/assets/feature1.mp4"
+            src="/assets/videos/anno1/pipe1.mp4"
             autoplay
             loop
             muted

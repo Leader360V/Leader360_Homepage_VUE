@@ -46,19 +46,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
 }
 .dataset-left {
-  flex: 1;
+  flex: 2;
+  max-width: 80%;
   display: flex;
   justify-content: center;
 }
 .dataset-right {
-  flex: 1.2;
-  padding-left: 40px;
+  flex: 1;
+  padding-left: 20px;
 }
 .dataset-video {
   width: 100%;
-  max-width: 400px;
+  /* max-width: 400px; */
   border-radius: 18px;
   box-shadow: 0 4px 32px rgba(0,0,0,0.12);
 }

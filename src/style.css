@@ -77,3 +77,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547; /* 可选：如果需要，保持文字颜色不变 */
+    background-color: #ffffff !important; /* 强制深色模式下背景仍为白色 */
+  }
+  a:hover {
+    color: #747bff; /* 可选：保持链接悬停颜色不变 */
+  }
+  button {
+    background-color: #f9f9f9; /* 可选：保持按钮背景不变 */
+  }
+}
